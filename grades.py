@@ -15,7 +15,7 @@ def assign_grade(avg):
     else:
         return "F"
 
-    def generate_remark(grade):
+def generate_remark(grade):
         remarks = {
             "A": "Excellent Performance",
             "B": "Good Performance",

@@ -17,7 +17,7 @@ scores = [
 ]
 
 average = grades.compute_averages(scores)
-grade = grades.assign_gradew(average)
+grade = grades.assign_grade(average)
 remark= grades.generate_remark(grade)
 
 print('=' * 40)
